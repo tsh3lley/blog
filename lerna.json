@@ -1,0 +1,9 @@
+{
+  "lerna": "2.0.0",
+  "packages": [
+    "graphql",
+    "react"
+  ],
+  "version": "0.0.0",
+  "npmClient": "yarn"
+}

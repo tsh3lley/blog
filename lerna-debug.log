@@ -1,0 +1,23 @@
+0 silly input []
+1 silly flags { _: [ 'bootstrap' ],
+1 silly flags   'reject-cycles': false,
+1 silly flags   rejectCycles: false,
+1 silly flags   args: [] }
+2 verbose rootPath /home/tshelley/dev/learn/react/blog
+3 info version 2.5.1
+4 silly existsSync /home/tshelley/dev/learn/react/blog/VERSION
+5 error EPACKAGES Errored while collecting packages and package graph
+6 error JSONError: Trailing comma in object at 7:3 in react/package.json
+6 error   },
+6 error   ^
+6 error   },
+6 error   ^
+6 error     at module.exports (/home/tshelley/dev/learn/react/blog/node_modules/parse-json/index.js:27:17)
+6 error     at parse (/home/tshelley/dev/learn/react/blog/node_modules/read-pkg/node_modules/load-json-file/index.js:8:29)
+6 error     at Function.module.exports.sync.fp [as sync] (/home/tshelley/dev/learn/react/blog/node_modules/read-pkg/node_modules/load-json-file/index.js:11:29)
+6 error     at Function.module.exports.sync (/home/tshelley/dev/learn/react/blog/node_modules/read-pkg/index.js:40:25)
+6 error     at /home/tshelley/dev/learn/react/blog/node_modules/lerna/lib/PackageUtilities.js:129:47
+6 error     at Array.forEach (native)
+6 error     at /home/tshelley/dev/learn/react/blog/node_modules/lerna/lib/PackageUtilities.js:123:86
+6 error     at Array.forEach (native)
+6 error     at Function.getPackages (/home/tshelley/dev/learn/react/blog/node_modules/lerna/lib/PackageUtilities.js:122:22)

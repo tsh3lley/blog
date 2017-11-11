@@ -1,12 +1,17 @@
 {
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Personal site of Thomas Shelley",
+  "author": "Thomas Shelley <thomasjshelley@gmail.com>",
+  "license": "MIT",
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
+    "bootstrap": "lerna bootstrap",
+    "clean": "rimraf react/node_modules graphql/node_modules",
+    "clean-lock": "rimraf react/yarn.lock graphql/yarn.lock"
   },
-  "dependencies": {
-    "next": "^4.1.4",
-    "react": "^16.1.0",
-    "react-dom": "^16.1.0"
-  }
+  "devDependencies": {
+    "lerna": "^2.5.1",
+    "rimraf": "^2.6.2"
+  },
+  "dependencies": {}
 }
